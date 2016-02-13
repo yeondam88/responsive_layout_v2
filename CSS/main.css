@@ -232,7 +232,7 @@ footer {
     
     /*---- Header Style ----*/
     
-    .wrapper {
+    .main-heading {
         display: flex;
         justify-content: space-around;
     }
