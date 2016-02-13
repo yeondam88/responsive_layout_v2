@@ -31,6 +31,23 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #4d4d4d;
+}
+
+a:visited {
+    color: #4d4d4d;
+}
+
+a:hover {
+    color:rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+}
+
 /* ---- HEADING RULE ---- */
 
 
@@ -132,7 +149,7 @@ footer {
 
 .main-footer > p {
     font-family: 'Abel', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     width: 80%;
     margin: auto;
 }
@@ -276,10 +293,10 @@ footer {
     /*---- Footer Style ----*/
     
     .contact {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .main-footer p {
-        font-size: 1.5em;
+        font-size: 1.25em;
         width: 60%;
     }
     .second-footer h3 {
