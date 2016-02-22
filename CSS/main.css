@@ -169,6 +169,19 @@ footer {
     padding-right: 40px;
 }
 
+.footer-style {
+        display: flex;
+        justify-content: space-between;
+    }
+.footer-name {
+        width: 50%;
+    }
+.footer-navigation li {
+        width: 50%;
+        display: inline;
+        padding-right: 10px;
+    }
+
 
 /*---- MEDIA QUERY ---- */
 
@@ -226,9 +239,26 @@ footer {
     .second-footer h3 {
         font-size: 1em;
     }
+    .footer-style {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-name {
+        width: 50%;
+    }
+    .footer-navigation li {
+        width: 50%;
+        display: inline;
+        padding-right: 10px;
+    }
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1025px) {
+    
+    body {
+        width: 1200px;
+        margin: 0 auto;
+    }
     
     /*---- Header Style ----*/
     
@@ -301,6 +331,18 @@ footer {
     }
     .second-footer h3 {
         font-size: 1em;
+    }
+    .footer-style {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-name {
+        width: 50%;
+    }
+    .footer-navigation li {
+        width: 50%;
+        display: inline;
+        padding-right: 10px;
     }
 }
 
