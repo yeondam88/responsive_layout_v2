@@ -176,10 +176,8 @@ footer {
 .footer-name {
         width: 50%;
     }
-.footer-navigation li {
-        width: 50%;
-        display: inline;
-        padding-right: 10px;
+.footer-navigation {
+        display:none;
     }
 
 
@@ -246,11 +244,21 @@ footer {
     .footer-name {
         width: 50%;
     }
+    
+    h3.back-to-top {
+        display: none;
+    }
+    
+    .footer-navigation {
+        display: inline;
+    }
+    
     .footer-navigation li {
         width: 50%;
         display: inline;
-        padding-right: 10px;
+        padding-right: 30px;
     }
+    
 }
 
 @media (min-width: 1025px) {
@@ -339,10 +347,15 @@ footer {
     .footer-name {
         width: 50%;
     }
+    
+    .back-to-top {
+        display: none;
+    }
+    
     .footer-navigation li {
         width: 50%;
         display: inline;
-        padding-right: 10px;
+        padding-right: 50px;
     }
 }
 
